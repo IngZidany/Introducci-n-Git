@@ -1,0 +1,21 @@
+instalacion de git en Windows:
+direccion url: https://github.com/git-for-windows/git/releases/download/v2.47.0.windows.2/Git-2.47.0.2-64-bit.exe
+la siguiente direccion url direciona a la descarga de GIT para windows 64-bit no portable
+
+una vez tu descarga este lista, una ventana emergente se abrirá para la instalacion 
+
+pasos:
+    click en aceptar --> apratir de aceptar dale a (next --> next) y asi consecutivamente hasta que tu descarga este
+    completada 
+
+Criterios a Evaluar
+
+    abrir git bash 
+
+escribe los soguientes comandos:
+    $ git --version                                                   ---> Visualiza la version de Git
+    $ git config --global user.name "Mi Nombre Usuario Ejemplo"       ---> configuracion global para iniciar con un nombre usuario
+    $ git config --global user.email midireccion@email.com            ---> conf global para iniciar email en git
+    $ git config --global core.editor "code --wait"                   ---> configuracion para predeterminar vscode como editor de codigo para git
+    $ git config --global -e                                          >> este comando global configura a git para que el vscode este en ejecucion hasta su cierre
+    $  code                                                           >>>> comando para abrir git desde bash con la funcion de ejecutar code hasta que se cierre vs code
