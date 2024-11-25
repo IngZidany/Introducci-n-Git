@@ -1,6 +1,6 @@
 instalacion de git en Windows:
 direccion url: https://github.com/git-for-windows/git/releases/download/v2.47.0.windows.2/Git-2.47.0.2-64-bit.exe
-la siguiente direccion url direciona a la descarga de GIT para windows 64-bit no portable
+la siguiente direccion url direcciona a la descarga de GIT para windows 64-bit no portable
 
 una vez tu descarga este lista, una ventana emergente se abrirá para la instalacion 
 
@@ -9,7 +9,13 @@ pasos:
     completada 
 
 Criterios a Evaluar
-
+    Luego de la descarga completada debes asegurarte de que tu ruta de git sea la siguiente == Users/MiUsuario escribe el siguiente comando
+    ls ---> ls mostrará las carpetas que se encuentran dentro de tu ruta, verificar que halla una carpeta llamada workspace , en caso de no haber:
+    escribir el siguiente comando dentro de bash -----> mkdir workspace
+    verificar con ls de nuevo y observar la carpeta creada.
+    muevete a la carpeta de workspace.
+    la ruta será la siguiente: (Users/MiUsuario/workspace) >> Esta direccion es un ejemplo,
+    debes tener un marco espacio de trabajo para luego inicializar git = workspace
     abrir git bash 
 
 escribe los soguientes comandos:
